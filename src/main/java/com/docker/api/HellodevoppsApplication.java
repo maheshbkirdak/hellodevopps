@@ -11,7 +11,7 @@ public class HellodevoppsApplication {
 
 	@GetMapping("/msg")
 	public String getString() {
-		return "Welcome to new year new place  !!";
+		return "Welcome to new year new place with 30  !!";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(HellodevoppsApplication.class, args);
